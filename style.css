@@ -24,11 +24,12 @@ body{
 .top-header{
     display:flex;
     justify-content: space-between;
+    align-items: center;
     width:85%;
 }
 .header-section{
     background-color: #1F2937;
-    padding:2rem 0rem 12rem 0rem;
+    padding:3rem 0rem 12rem 0rem;
     display:flex;
     flex-direction: column;
     gap:7rem;
@@ -36,9 +37,7 @@ body{
     align-items: center;
    
 }
-
 .header-links{
-   
     display:flex;
     gap:2rem;
 }
@@ -111,7 +110,7 @@ h2{
     align-items: center;
     justify-content: center;
     padding:4rem 0rem 8rem 0rem;
-    gap: 3rem;
+    gap: 4.6rem;
     max-width:100%;
 }
 
@@ -211,7 +210,7 @@ h3{
     color:white;
     font-family: 'Roboto',sans-serif;
     font-weight: 800;
-    font-size:1.8rem;
+    font-size:2rem;
 }
 .left-sign-up > p{
     width:49ch;
@@ -226,8 +225,103 @@ h3{
 }
 
 .footer > p{
-    width:30ch;
+    width:20ch;
 }
+
+@media only screen and (max-width: 770px) {
+   .sign-up-container{
+       width:100%;
+   }
+   .header-section{
+       padding-bottom:5rem;
+   }
+   .header-section{
+       gap:3rem;
+   }
+   .quote{
+       width:100%;
+       font-size:3rem;
+   }
+   .quote-container{
+       gap:1rem;
+   }
+   .quote-section{
+       padding:8rem 4rem;
+
+   }
+
+}
+@media only screen and (max-width: 590px) {
+   .header-logo{
+       font-size:1.5rem;
+
+   } 
+   .left-sign-up > p{
+    width:22ch;
+    font-size:1.4rem;
+}
+   h1{
+       font-size:3rem;
+   }
+   .quote{
+       font-size:2rem;
+   }
+   .author-quote{
+       font-size:1.6rem;
+   }
+
+   p{
+       width:30ch;
+   }
+   .header-image{
+       width:100%;
+   }
+   .introduction-container{
+     gap:2rem;
+   }
+
+   .header-image{
+       margin-top:2rem;
+   }
+   
+   .bottom-header{
+       flex-direction: column;
+       gap:1.5rem;
+       align-items: flex-start;
+   }
+
+   .header-links > a{
+       font-size:1.3rem;
+   }
+   .pictures-container{
+       flex-flow: row wrap;
+       row-gap: 3rem;
+
+   }
+   h3{
+       font-size:1.9rem;
+   }
+   .picture-section > h2{
+     text-align: center;
+
+   }
+   .sign-up-container{
+       width:100%;
+   }
+   .sign-up-section{
+    padding:6rem 1rem;
+   }
+   .picture{
+       width:50%;
+   }
+
+   .introduction-container > p{
+       width:34ch;
+   }
+   
+}
+
+
 
 
 
