@@ -92,7 +92,8 @@ button{
 }
 
 .introduction-container > button{
-    font-size:1.7rem;
+    font-size:1.6rem;
+    padding: 0.6rem 1.2rem;
 }
 
 .introduction-container{
