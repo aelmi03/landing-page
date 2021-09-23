@@ -39,7 +39,7 @@ body{
 }
 .header-links{
     display:flex;
-    gap:2rem;
+    gap:5rem;
 }
 .header-links > a, p{
     text-decoration: none;
@@ -56,8 +56,8 @@ body{
 
 }
 .header-image{
-   width:40%;
-   height:inherit;
+   width:45%;
+   height:auto;
    flex-shrink: 0;
 }
 
@@ -94,7 +94,7 @@ button{
     display:flex;
     width:50%;
     flex-direction: column;
-    gap:1rem;
+    gap:3rem;
 }
 
 h2{
@@ -127,7 +127,7 @@ h2{
     align-items: center;
     text-align: center;
     width:20%;
-    gap:1rem;
+    gap:3.1rem;
 }
 
 .picture-image{
@@ -144,7 +144,7 @@ h2{
 
 .picture > p {
     width:80%;
-    font-size:1.4rem;
+    font-size:2rem;
     color:rgb(114, 113, 113);
 }
 .quote-section{
@@ -193,6 +193,7 @@ h2{
     padding:3.4rem 2.2rem;
     border-radius: 10px;
     width:80%;
+    max-width:85rem;
 }
 
 .sign-up{
@@ -203,7 +204,7 @@ h2{
 .left-sign-up{
     display:flex;
     flex-direction: column;
-    gap:0.6rem;
+    gap:1.4rem;
 
 }
 h3{
@@ -213,7 +214,7 @@ h3{
     font-size:2rem;
 }
 .left-sign-up > p{
-    width:49ch;
+    width:ch;
 }
 
 .footer{
@@ -225,7 +226,7 @@ h3{
 }
 
 .footer > p{
-    width:20ch;
+    width:20%;
 }
 
 @media only screen and (max-width: 770px) {
@@ -256,6 +257,12 @@ h3{
        font-size:1.5rem;
 
    } 
+   .header-links{
+       gap:2rem;
+   }
+   .footer > p{
+       width:22ch;
+   }
    .left-sign-up > p{
     width:22ch;
     font-size:1.4rem;
@@ -300,6 +307,9 @@ h3{
    }
    h3{
        font-size:1.9rem;
+   }
+   .picture> p{
+      font-size:1.4rem;
    }
    .picture-section > h2{
      text-align: center;
